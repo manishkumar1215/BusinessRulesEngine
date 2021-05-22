@@ -7,3 +7,5 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\Business
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.Contracts.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.Contracts.pdb
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\BusinessRulesEngine.Services.csproj.CopyComplete
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.DTO.pdb

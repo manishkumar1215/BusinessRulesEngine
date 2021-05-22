@@ -71,3 +71,5 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Con
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Services.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Contracts.pdb
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Services.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.DTO.pdb

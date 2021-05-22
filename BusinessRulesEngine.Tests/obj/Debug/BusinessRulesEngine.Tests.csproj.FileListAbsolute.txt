@@ -50,3 +50,5 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRul
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.Services.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.Contracts.pdb
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.Services.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.DTO.pdb

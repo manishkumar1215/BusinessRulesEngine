@@ -4,3 +4,6 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\obj\Debug\Busines
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\obj\Debug\BusinessRulesEngine.Contracts.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\obj\Debug\BusinessRulesEngine.Contracts.pdb
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\obj\Debug\BusinessRulesEngine.Contracts.csprojAssemblyReference.cache
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\bin\Debug\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\bin\Debug\BusinessRulesEngine.DTO.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Contracts\obj\Debug\BusinessRulesEngine.Contracts.csproj.CopyComplete
