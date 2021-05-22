@@ -43,11 +43,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Agent\IAgent.cs" />
+    <Compile Include="Services\Department\IDepartment.cs" />
+    <Compile Include="Services\EmailNotification\IEmailNotification.cs" />
+    <Compile Include="Services\PackingSlip\IPackingSlip.cs" />
     <Compile Include="Services\Membership\IMembership.cs" />
     <Compile Include="Services\Membership\IMembershipUpgrade.cs" />
     <Compile Include="Services\Order\IOrder.cs" />
+    <Compile Include="Services\PackingSlip\IPackingSlipRoyaltyDep.cs" />
     <Compile Include="Services\Payment\IPayment.cs" />
     <Compile Include="Services\Product\IProduct.cs" />
+    <Compile Include="Services\Shipping\IShipping.cs" />
     <Compile Include="Services\User\IUser.cs" />
     <Compile Include="Services\VideoSubsciption\IVideoSubscription.cs" />
   </ItemGroup>

@@ -12,6 +12,12 @@ using BusinessRulesEngine.Contracts.Services.User;
 using BusinessRulesEngine.Services.User;
 using BusinessRulesEngine.Contracts.Services.VideoSubsciption;
 using BusinessRulesEngine.Services.VideoSubscription;
+using BusinessRulesEngine.Contracts.Services.PackingSlip;
+using BusinessRulesEngine.Services.PackingSlip;
+using BusinessRulesEngine.Contracts.Services.EmailNotification;
+using BusinessRulesEngine.Services.EmailNotification;
+using BusinessRulesEngine.Contracts.Services.Shipping;
+using BusinessRulesEngine.Services.Shipping;
 using System.Web.Http;
 using Unity;
 using Unity.WebApi;
@@ -32,6 +38,10 @@ namespace BusinessRulesEngine
             container.RegisterType<IProduct, ProductService>();
             container.RegisterType<IUser, UserService>();
             container.RegisterType<IVideoSubscription, VideoSubscriptionService>();
+            container.RegisterType<IPackingSlip, PackingSlipService>();
+            container.RegisterType<IPackingSlipRoyaltyDep, PackingSlipRoyaltyDepService>();
+            container.RegisterType<IEmailNotification, EmailNotificationService>();
+            container.RegisterType<IShipping, ShippingService>();
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

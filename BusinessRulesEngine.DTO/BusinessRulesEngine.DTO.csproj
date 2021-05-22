@@ -43,11 +43,14 @@
   <ItemGroup>
     <Compile Include="Agent\AgentDTO.cs" />
     <Compile Include="Department\DepartmentDTO.cs" />
+    <Compile Include="EmailNotification\EmailNotificationDTO.cs" />
     <Compile Include="Membership\MembershipDTO.cs" />
     <Compile Include="Order\OrderDTO.cs" />
+    <Compile Include="PackingSlip\PackingSlipDTO.cs" />
     <Compile Include="Payment\PaymentDTO.cs" />
     <Compile Include="Product\ProductDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shipping\ShippingDTO.cs" />
     <Compile Include="User\UserDTO.cs" />
     <Compile Include="VideoSubscription\VideoSubscriptionDTO.cs" />
   </ItemGroup>
