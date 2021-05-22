@@ -1,0 +1,9 @@
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.Services.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.Services.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\BusinessRulesEngine.Services.csprojAssemblyReference.cache
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\BusinessRulesEngine.Services.csproj.CoreCompileInputs.cache
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\BusinessRulesEngine.Services.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\BusinessRulesEngine.Services.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.Contracts.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\bin\Debug\BusinessRulesEngine.Contracts.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Services\obj\Debug\BusinessRulesEngine.Services.csproj.CopyComplete

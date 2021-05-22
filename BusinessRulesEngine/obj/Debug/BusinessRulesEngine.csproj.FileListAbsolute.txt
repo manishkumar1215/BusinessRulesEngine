@@ -60,3 +60,14 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine\obj\Debug\BusinessRulesEngi
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine\obj\Debug\BusinessRulesEngine.csproj.CopyComplete
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine\obj\Debug\BusinessRulesEngine.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine\obj\Debug\BusinessRulesEngine.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\Unity.Abstractions.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\Unity.Container.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\Unity.WebApi.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\Unity.Abstractions.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\Unity.Container.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Contracts.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Services.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Contracts.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine\bin\BusinessRulesEngine.Services.pdb

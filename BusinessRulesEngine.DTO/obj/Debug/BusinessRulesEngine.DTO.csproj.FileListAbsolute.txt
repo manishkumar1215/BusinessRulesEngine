@@ -1,0 +1,5 @@
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.DTO\bin\Debug\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.DTO\bin\Debug\BusinessRulesEngine.DTO.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.DTO\obj\Debug\BusinessRulesEngine.DTO.csproj.CoreCompileInputs.cache
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.DTO\obj\Debug\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.DTO\obj\Debug\BusinessRulesEngine.DTO.pdb
