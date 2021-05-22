@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BusinessRulesEngine.Contracts.Services.Shipping;
+using BusinessRulesEngine.DTO.PackingSlip;
 
 namespace BusinessRulesEngine.Services.Shipping
 {
@@ -13,8 +14,9 @@ namespace BusinessRulesEngine.Services.Shipping
         {
 
         }
-        public void SaveShippingDetails()
+        public void SaveShippingDetails(PackingSlipDTO packingSlipDTO)
         {
+            // Save Shipping Details here.
             throw new NotImplementedException();
         }
     }

@@ -8,6 +8,6 @@ namespace BusinessRulesEngine.Contracts.Services.Department
 {
     public interface IDepartment
     {
-        void SaveDepartmentDetails();
+        void SaveDepartmentDetails(int PackingSlipId);
     }
 }

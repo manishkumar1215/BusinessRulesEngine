@@ -8,6 +8,6 @@ namespace BusinessRulesEngine.Contracts.Services.VideoSubsciption
 {
     public interface IVideoSubscription
     {
-        void CheckUserVideoSubscriptionPlans();
+        void CheckUserVideoSubscriptionPlans(string videoName);
     }
 }

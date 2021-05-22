@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agent\AgentService.cs" />
+    <Compile Include="Department\DepartmentServices.cs" />
     <Compile Include="EmailNotification\EmailNotificationService.cs" />
     <Compile Include="Membership\MembershipService.cs" />
     <Compile Include="Membership\MembershipUpgradeService.cs" />

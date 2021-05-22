@@ -14,6 +14,9 @@ namespace BusinessRulesEngine.DTO.Payment
 
         public Order.OrderDTO Order { get; set; }
         public User.UserDTO User { get; set; }
+        public Membership.MembershipDTO MembershipDTO { get; set; }
+        public VideoSubscription.VideoSubscriptionDTO VideoSubscriptionDTO { get; set; }
+        public PackingSlip.PackingSlipDTO PackingSlipDTO { get; set; }
 
     }
 }

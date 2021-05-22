@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessRulesEngine.DTO.PackingSlip;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace BusinessRulesEngine.Contracts.Services.Shipping
 {
     public interface IShipping
     {
-        void SaveShippingDetails();
+        void SaveShippingDetails(PackingSlipDTO packingSlipDTO);
     }
 }

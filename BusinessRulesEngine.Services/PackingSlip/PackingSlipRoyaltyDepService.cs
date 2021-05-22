@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BusinessRulesEngine.Contracts.Services.Department;
 using BusinessRulesEngine.Contracts.Services.PackingSlip;
 
 namespace BusinessRulesEngine.Services.PackingSlip
 {
     public class PackingSlipRoyaltyDepService : IPackingSlipRoyaltyDep
     {
-        public PackingSlipRoyaltyDepService()
+        private readonly IDepartment _department;
+        public PackingSlipRoyaltyDepService(IDepartment department)
         {
-
+            _department = department;
         }
-        public void CopyOriginalPackingSlipNumberForRoyDep()
+        public void CopyOriginalPackingSlipNumberForRoyDep(int PackingSlipId)
         {
-            throw new NotImplementedException();
+            _department.SaveDepartmentDetails(PackingSlipId);
         }
     }
 }

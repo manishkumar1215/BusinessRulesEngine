@@ -9,5 +9,6 @@ namespace BusinessRulesEngine.Contracts.Services.PackingSlip
     public interface IPackingSlip
     {
         int GeneratePackingSlip();
+        void AddVideoToPackingSlip(string videoName);
     }
 }

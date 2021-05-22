@@ -8,6 +8,6 @@ namespace BusinessRulesEngine.Contracts.Services.PackingSlip
 {
     public interface IPackingSlipRoyaltyDep
     {
-        void CopyOriginalPackingSlipNumberForRoyDep();
+        void CopyOriginalPackingSlipNumberForRoyDep(int PackingSlipId);
     }
 }

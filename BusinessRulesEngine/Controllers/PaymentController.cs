@@ -42,7 +42,7 @@ namespace BusinessRulesEngine.Controllers
         private readonly IVideoSubscription _videoSubscription;
 
         /// <summary>
-        /// Controller to Inject Dependecies
+        /// Constructor to Inject Service Dependecies
         /// </summary>
         /// <param name="agent"></param>
         /// <param name="department"></param>
@@ -89,6 +89,26 @@ namespace BusinessRulesEngine.Controllers
             if(isPaymentSuccessful == true)
             {
                 // If the Payment got successful, then we need to execute all the Services independently to process the Order.
+                int packingSlipId = 0;
+                foreach(var product in paymentDto.Order.Products)
+                {
+                    packingSlipId = _packingSlip.GeneratePackingSlip();
+                    if(product.ProductType.Equals("Book"))
+                        _packingSlipRoyaltyDep.CopyOriginalPackingSlipNumberForRoyDep(packingSlipId);
+                }
+
+                if(paymentDto.MembershipDTO.MembershipName.Equals("New Membership"))
+                    _membership.ActivateMembership();
+                else if (paymentDto.MembershipDTO.MembershipName.Equals("Upgrade Membership"))
+                    _membershipUpgrade.UpgradeMembership();
+
+                // The below code base is to demonstarte how can we send the parms to a service which can utlize another 
+                // service to do processing and ship the order.
+                _videoSubscription.CheckUserVideoSubscriptionPlans(paymentDto.VideoSubscriptionDTO.VideoSubscriptionName);
+                _shipping.SaveShippingDetails(paymentDto.PackingSlipDTO);
+
+                // Send Email Notification in all cases , We can also frame the Message body based on the opertion we wanted to do.
+                _emailNotification.SendEmailNotification();
 
                 return Ok(isPaymentSuccessful);
             }

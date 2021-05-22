@@ -17,5 +17,7 @@ namespace BusinessRulesEngine.DTO.VideoSubscription
 
         public User.UserDTO User { get; set; }
 
+        public PackingSlip.PackingSlipDTO packingSlip { get; set; }
+
     }
 }
