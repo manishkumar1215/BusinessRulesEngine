@@ -5,18 +5,23 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessRulesEngine;
 using BusinessRulesEngine.Contracts.Services.Agent;
+using BusinessRulesEngine.Contracts.Services.Payment;
+using BusinessRulesEngine.DTO.Payment;
 
 namespace BusinessRulesEngine.Services.Agent
 {
     public class AgentService : IAgent
     {
-        public AgentService()
+        private readonly IPayment _payment;
+        
+        public AgentService(IPayment payment)
         {
-
+            _payment = payment;
         }
-        public void DoAgentCommissonPayment()
+
+        public void DoAgentCommissonPayment(PaymentDTO paymentDto)
         {
-            throw new NotImplementedException();
+            _payment.ProcessPayment(paymentDto);
         }
     }
 }

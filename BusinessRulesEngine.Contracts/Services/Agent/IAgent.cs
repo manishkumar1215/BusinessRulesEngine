@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessRulesEngine.DTO.Payment;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace BusinessRulesEngine.Contracts.Services.Agent
 {
     public interface IAgent
     {
-        void DoAgentCommissonPayment();
+        void DoAgentCommissonPayment(PaymentDTO paymentDto);
     }
 }

@@ -96,8 +96,10 @@ namespace BusinessRulesEngine.Controllers
                     if(product.ProductType.Equals("Book"))
                         _packingSlipRoyaltyDep.CopyOriginalPackingSlipNumberForRoyDep(packingSlipId);
                 }
+                // comission payment to Agent
+                _agent.DoAgentCommissonPayment(paymentDto);
 
-                if(paymentDto.MembershipDTO.MembershipName.Equals("New Membership"))
+                if (paymentDto.MembershipDTO.MembershipName.Equals("New Membership"))
                     _membership.ActivateMembership();
                 else if (paymentDto.MembershipDTO.MembershipName.Equals("Upgrade Membership"))
                     _membershipUpgrade.UpgradeMembership();
