@@ -21,6 +21,8 @@ using BusinessRulesEngine.Services.Shipping;
 using System.Web.Http;
 using Unity;
 using Unity.WebApi;
+using BusinessRulesEngine.Contracts.Services.Department;
+using BusinessRulesEngine.Services.Department;
 
 namespace BusinessRulesEngine
 {
@@ -42,6 +44,8 @@ namespace BusinessRulesEngine
             container.RegisterType<IPackingSlipRoyaltyDep, PackingSlipRoyaltyDepService>();
             container.RegisterType<IEmailNotification, EmailNotificationService>();
             container.RegisterType<IShipping, ShippingService>();
+            container.RegisterType<IDepartment, DepartmentServices>();
+            
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }
