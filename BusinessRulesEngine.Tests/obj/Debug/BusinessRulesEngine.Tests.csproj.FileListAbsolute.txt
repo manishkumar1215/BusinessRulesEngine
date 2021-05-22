@@ -52,3 +52,9 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRul
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.Services.pdb
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.DTO.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.DTO.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\Castle.Core.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\Moq.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\Castle.Core.xml
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\Moq.xml
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml

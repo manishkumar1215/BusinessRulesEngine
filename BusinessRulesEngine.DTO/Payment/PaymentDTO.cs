@@ -10,8 +10,6 @@ namespace BusinessRulesEngine.DTO.Payment
     {
         public int PaymentId { get; set; }
         public string PaymentType { get; set; }
-        public int OrderId { get; set; }
-
         public Order.OrderDTO Order { get; set; }
         public User.UserDTO User { get; set; }
         public Membership.MembershipDTO MembershipDTO { get; set; }

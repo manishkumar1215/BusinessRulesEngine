@@ -100,12 +100,13 @@ namespace BusinessRulesEngine.Controllers
                 _agent.DoAgentCommissonPayment(paymentDto);
 
                 if (paymentDto.MembershipDTO.MembershipName.Equals("New Membership"))
-                    _membership.ActivateMembership();
+                    _membership.ActivateMembership(paymentDto.User);
                 else if (paymentDto.MembershipDTO.MembershipName.Equals("Upgrade Membership"))
-                    _membershipUpgrade.UpgradeMembership();
+                    _membershipUpgrade.UpgradeMembership(paymentDto.User);
 
                 // The below code base is to demonstarte how can we send the parms to a service which can utlize another 
                 // service to do processing and ship the order.
+                if(paymentDto.VideoSubscriptionDTO.VideoSubscriptionName.Equals("Learning to Ski"))
                 _videoSubscription.CheckUserVideoSubscriptionPlans(paymentDto.VideoSubscriptionDTO.VideoSubscriptionName);
                 _shipping.SaveShippingDetails(paymentDto.PackingSlipDTO);
 

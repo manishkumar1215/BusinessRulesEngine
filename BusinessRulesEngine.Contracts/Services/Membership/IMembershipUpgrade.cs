@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessRulesEngine.DTO.User;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace BusinessRulesEngine.Contracts.Services.Membership
 {
     public interface IMembershipUpgrade
     {
-        void UpgradeMembership();
+        void UpgradeMembership(UserDTO user);
     }
 }

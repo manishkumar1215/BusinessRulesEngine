@@ -9,6 +9,7 @@ namespace BusinessRulesEngine.Tests.Services
         [TestMethod]
         public void TestMethod1()
         {
+
         }
     }
 }

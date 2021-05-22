@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessRulesEngine.DTO.User;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace BusinessRulesEngine.Contracts.Services.Membership
 {
     public interface IMembership
     {
-        void CheckUserMembershipPlans();
-        void ActivateMembership();
+        void CheckUserMembershipPlans(UserDTO user);
+        void ActivateMembership(UserDTO user);
     }
 }
