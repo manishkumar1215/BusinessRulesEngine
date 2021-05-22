@@ -14,5 +14,8 @@ namespace BusinessRulesEngine.DTO.VideoSubscription
         public string VideoSubscriptionName { get; set; }
 
         public bool IsFirstVideoSubscription { get; set; }
+
+        public User.UserDTO User { get; set; }
+
     }
 }

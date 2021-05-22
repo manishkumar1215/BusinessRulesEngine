@@ -16,6 +16,7 @@ using BusinessRulesEngine.Contracts.Services.Product;
 using BusinessRulesEngine.Contracts.Services.Shipping;
 using BusinessRulesEngine.Contracts.Services.User;
 using BusinessRulesEngine.Contracts.Services.VideoSubsciption;
+using BusinessRulesEngine.DTO.Payment;
 using BusinessRulesEngine.Services;
 
 namespace BusinessRulesEngine.Controllers
@@ -77,7 +78,25 @@ namespace BusinessRulesEngine.Controllers
         }
 
         #region Action Methods
+        [Route("ProcessPayment")]
+        [HttpPost]
+        public IHttpActionResult ProcessPayment([FromBody] PaymentDTO paymentDto)
+        {
+            if (paymentDto == null)
+                return BadRequest();
 
+            bool isPaymentSuccessful = _payment.ProcessPayment(paymentDto);
+            if(isPaymentSuccessful == true)
+            {
+                // If the Payment got successful, then we need to execute all the Services independently to process the Order.
+
+                return Ok(isPaymentSuccessful);
+            }
+            else
+            {
+                return InternalServerError();
+            }
+        }
         #endregion
     }
 }

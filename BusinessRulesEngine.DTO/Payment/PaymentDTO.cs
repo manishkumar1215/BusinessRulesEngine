@@ -13,5 +13,7 @@ namespace BusinessRulesEngine.DTO.Payment
         public int OrderId { get; set; }
 
         public Order.OrderDTO Order { get; set; }
+        public User.UserDTO User { get; set; }
+
     }
 }
