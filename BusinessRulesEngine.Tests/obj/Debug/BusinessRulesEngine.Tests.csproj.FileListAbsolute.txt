@@ -58,3 +58,5 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\System.Thre
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\Castle.Core.xml
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\Moq.xml
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.Repo.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Tests\bin\Debug\BusinessRulesEngine.Repo.pdb

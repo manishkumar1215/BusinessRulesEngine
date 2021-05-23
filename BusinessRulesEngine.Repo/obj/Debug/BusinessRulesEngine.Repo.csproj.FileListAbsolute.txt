@@ -3,4 +3,9 @@ C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\bin\Debug\BusinessRule
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\obj\Debug\BusinessRulesEngine.Repo.csproj.CoreCompileInputs.cache
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\obj\Debug\BusinessRulesEngine.Repo.dll
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\obj\Debug\BusinessRulesEngine.Repo.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\bin\Debug\BusinessRulesEngine.Contracts.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\bin\Debug\BusinessRulesEngine.DTO.dll
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\bin\Debug\BusinessRulesEngine.Contracts.pdb
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\bin\Debug\BusinessRulesEngine.DTO.pdb
 C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\obj\Debug\BusinessRulesEngine.Repo.csprojAssemblyReference.cache
+C:\Personal-Manish\BusinessRules\BusinessRulesEngine.Repo\obj\Debug\BusinessRulesEngine.Repo.csproj.CopyComplete

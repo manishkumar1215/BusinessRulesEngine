@@ -41,7 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgentRepo.cs" />
+    <Compile Include="DepartmentRepo.cs" />
+    <Compile Include="EmailNotificationRepo.cs" />
+    <Compile Include="MembershipRepo.cs" />
+    <Compile Include="MembershipUpgradeRepo.cs" />
+    <Compile Include="OrderRepo.cs" />
+    <Compile Include="PackingSlipRepo.cs" />
+    <Compile Include="PackingSlipRoyaltyDepRepo.cs" />
+    <Compile Include="PaymentRepo.cs" />
+    <Compile Include="ProductRepo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShippingRepo.cs" />
+    <Compile Include="UserRepo.cs" />
+    <Compile Include="VideoSubscriptionRepo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessRulesEngine.Contracts\BusinessRulesEngine.Contracts.csproj">
+      <Project>{4C78EF0E-CBA2-42C5-B9B7-D679CFA2D200}</Project>
+      <Name>BusinessRulesEngine.Contracts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

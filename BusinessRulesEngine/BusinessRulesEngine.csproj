@@ -267,6 +267,10 @@
       <Project>{35108E89-A6F2-4673-9692-FF9B3FC15FED}</Project>
       <Name>BusinessRulesEngine.DTO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BusinessRulesEngine.Repo\BusinessRulesEngine.Repo.csproj">
+      <Project>{D20FCFCC-9D79-4C15-8B38-822C04226E16}</Project>
+      <Name>BusinessRulesEngine.Repo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BusinessRulesEngine.Services\BusinessRulesEngine.Services.csproj">
       <Project>{58367EC6-A5E3-4287-A897-3B1A18B4F241}</Project>
       <Name>BusinessRulesEngine.Services</Name>

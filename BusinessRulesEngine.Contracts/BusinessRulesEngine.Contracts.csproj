@@ -42,6 +42,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\IAgentRepo.cs" />
+    <Compile Include="Repo\IDepartmentRepo.cs" />
+    <Compile Include="Repo\IEmailNotificationRepo.cs" />
+    <Compile Include="Repo\IMembershipRepo.cs" />
+    <Compile Include="Repo\IMembershipUpgradeRepo.cs" />
+    <Compile Include="Repo\IOrderRepo.cs" />
+    <Compile Include="Repo\IPackingSlipRepo.cs" />
+    <Compile Include="Repo\IPackingSlipRoyaltyDepRepo.cs" />
+    <Compile Include="Repo\IPaymentRepo.cs" />
+    <Compile Include="Repo\IProductRepo.cs" />
+    <Compile Include="Repo\IShippingRepo.cs" />
+    <Compile Include="Repo\IUserRepo.cs" />
+    <Compile Include="Repo\IVideoSubscriptionRepo.cs" />
     <Compile Include="Services\Agent\IAgent.cs" />
     <Compile Include="Services\Department\IDepartment.cs" />
     <Compile Include="Services\EmailNotification\IEmailNotification.cs" />
@@ -56,9 +69,7 @@
     <Compile Include="Services\User\IUser.cs" />
     <Compile Include="Services\VideoSubsciption\IVideoSubscription.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repo\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\BusinessRulesEngine.DTO\BusinessRulesEngine.DTO.csproj">
       <Project>{35108E89-A6F2-4673-9692-FF9B3FC15FED}</Project>

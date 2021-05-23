@@ -18,6 +18,8 @@ using BusinessRulesEngine.Contracts.Services.EmailNotification;
 using BusinessRulesEngine.Services.EmailNotification;
 using BusinessRulesEngine.Contracts.Services.Shipping;
 using BusinessRulesEngine.Services.Shipping;
+using BusinessRulesEngine.Contracts.Repo;
+using BusinessRulesEngine.Repo;
 using System.Web.Http;
 using Unity;
 using Unity.WebApi;
@@ -32,6 +34,7 @@ namespace BusinessRulesEngine
         {
 			var container = new UnityContainer();
 
+            // Services Injection
             container.RegisterType<IAgent, AgentService>();
             container.RegisterType<IMembership, MembershipService>();
             container.RegisterType<IMembershipUpgrade, MembershipUpgradeService>();
@@ -45,7 +48,21 @@ namespace BusinessRulesEngine
             container.RegisterType<IEmailNotification, EmailNotificationService>();
             container.RegisterType<IShipping, ShippingService>();
             container.RegisterType<IDepartment, DepartmentServices>();
-            
+
+            // Repo Injection
+            container.RegisterType<IAgentRepo, AgentRepo>();
+            container.RegisterType<IMembershipRepo, MembershipRepo>();
+            container.RegisterType<IMembershipUpgradeRepo, MembershipUpgradeRepo>();
+            container.RegisterType<IOrderRepo, OrderRepo>();
+            container.RegisterType<IPaymentRepo, PaymentRepo>();
+            container.RegisterType<IProductRepo, ProductRepo>();
+            container.RegisterType<IUserRepo, UserRepo>();
+            container.RegisterType<IVideoSubscriptionRepo, VideoSubscriptionRepo>();
+            container.RegisterType<IPackingSlipRepo, PackingSlipRepo>();
+            container.RegisterType<IPackingSlipRoyaltyDepRepo, PackingSlipRoyaltyDepRepo>();
+            container.RegisterType<IEmailNotificationRepo, EmailNotificationRepo>();
+            container.RegisterType<IShippingRepo, ShippingRepo>();
+            container.RegisterType<IDepartmentRepo, DepartmentRepo>();
 
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
         }

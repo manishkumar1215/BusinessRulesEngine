@@ -112,6 +112,7 @@
   <ItemGroup>
     <Compile Include="Controllers\PaymentControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repo\AgentRepoTests.cs" />
     <Compile Include="Services\AgentServicesTests.cs" />
     <Compile Include="Services\DepartmentServicesTests.cs" />
     <Compile Include="Services\EmailNotificationServicesTests.cs" />

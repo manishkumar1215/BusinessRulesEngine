@@ -1,4 +1,5 @@
-﻿using BusinessRulesEngine.Contracts.Services.Department;
+﻿using BusinessRulesEngine.Contracts.Repo;
+using BusinessRulesEngine.Contracts.Services.Department;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,10 @@ namespace BusinessRulesEngine.Services.Department
 {
     public class DepartmentServices : IDepartment
     {
-        public DepartmentServices()
+        private readonly IDepartmentRepo _departmentRepo;
+        public DepartmentServices(IDepartmentRepo departmentRepo)
         {
-
+            _departmentRepo = departmentRepo;
         }
         public void SaveDepartmentDetails(int PackingSlipId)
         {

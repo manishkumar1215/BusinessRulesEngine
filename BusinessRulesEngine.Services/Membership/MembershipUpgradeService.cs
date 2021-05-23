@@ -1,4 +1,5 @@
-﻿using BusinessRulesEngine.Contracts.Services.Membership;
+﻿using BusinessRulesEngine.Contracts.Repo;
+using BusinessRulesEngine.Contracts.Services.Membership;
 using BusinessRulesEngine.DTO.User;
 using System;
 using System.Collections.Generic;
@@ -10,9 +11,10 @@ namespace BusinessRulesEngine.Services.Membership
 {
     public class MembershipUpgradeService : IMembershipUpgrade
     {
-        public MembershipUpgradeService()
+        private readonly IMembershipUpgradeRepo _membershipUpgradeRepo;
+        public MembershipUpgradeService(IMembershipUpgradeRepo membershipUpgradeRepo)
         {
-
+            _membershipUpgradeRepo = membershipUpgradeRepo;
         }
         public void UpgradeMembership(UserDTO user)
         {
