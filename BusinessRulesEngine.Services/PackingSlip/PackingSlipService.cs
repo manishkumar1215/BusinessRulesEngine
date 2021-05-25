@@ -12,7 +12,8 @@ namespace BusinessRulesEngine.Services.PackingSlip
 {
     public class PackingSlipService : IPackingSlip
     {
-        private IShipping _shipping;
+        // I have written Test Cases for Payment Controller , Agent Service & PackingSlip Service for reference of Unit Tests cases.
+        private readonly IShipping _shipping;
         private readonly IPackingSlipRepo _packingSlipRepo;
 
         /// <summary>
